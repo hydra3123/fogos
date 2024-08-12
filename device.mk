@@ -17,6 +17,11 @@
 # Inherit from motorola sm6375-common
 $(call inherit-product, device/motorola/sm6375-common/common.mk)
 
+
+# Camera
+PRODUCT_PACKAGES += \
+    libgui_shim_vendor
+
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1.vendor \
