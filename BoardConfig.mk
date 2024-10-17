@@ -21,3 +21,6 @@ include device/motorola/sm6375-common/BoardConfigCommon.mk
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := fogos
+
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/properties/vendor.prop

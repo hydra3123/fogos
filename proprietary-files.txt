@@ -248,6 +248,9 @@ vendor/lib64/camera/com.qti.tuned.mot_fogos_s5k3p9.bin
 vendor/etc/qdcm_calib_data_mipi_mot_vid_tm_icnl9916c_hdp_652_120.xml
 vendor/etc/qdcm_calib_data_mipi_mot_vid_txd_ili9883c_hdp_652_120.xml
 
+# Display (SVI Config)
+vendor/etc/SVIConfig.xml
+
 # Fingerprint (goodix)
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-goodixservice
 vendor/bin/hw/goodix_ident:vendor/bin/goodix_ident
