@@ -1,3 +1,6 @@
+# Bluetooth
+bluetooth.device.default_name=moto g34 5G
+
 # Camera
 persist.vendor.camera.physical.num=3
 
