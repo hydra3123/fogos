@@ -13,6 +13,9 @@ vendor.display.svi.config_path=/vendor/etc/SVIConfig.xml
 # Motorola
 ro.mot.build.customerid=global
 
+# Sensor
+ro.vendor.sensors.prox_for_call=true
+
 # Surfaceflinger
 ro.surface_flinger.has_HDR_display=false
 ro.surface_flinger.has_wide_color_display=false
