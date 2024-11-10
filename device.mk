@@ -23,6 +23,7 @@ PRODUCT_PACKAGES += \
     SettingsOverlayXT2363-2 \
     SettingsOverlayXT2363-3 \
     SettingsOverlayXT2363-5 \
+    SettingsProviderResFogos \
     SettingsResFogos \
     SystemUIResFogos
 
