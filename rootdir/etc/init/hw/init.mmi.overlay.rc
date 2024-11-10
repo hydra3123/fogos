@@ -1,3 +1,6 @@
+# sec_nfc
+import /vendor/etc/init/hw/init.nfc.sec.rc
+
 on post-fs
     # "Tap to wake" gesture
     chown root input /sys/class/sensors/dt-gesture/enable

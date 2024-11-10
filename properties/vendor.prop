@@ -23,6 +23,10 @@ vendor.display.svi.config_path=/vendor/etc/SVIConfig.xml
 # Motorola
 ro.mot.build.customerid=global
 
+# NFC
+ro.nfc.port=I2C
+persist.vendor.nfc.config_secfile_name=libnfc-sec-nci.conf
+
 # Sensor
 ro.vendor.sensors.prox_for_call=true
 
