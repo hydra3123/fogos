@@ -17,6 +17,11 @@
 # Inherit from motorola sm6375-common
 $(call inherit-product, device/motorola/sm6375-common/common.mk)
 
+# AAPT
+PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_PREF_CONFIG := 280dpi
+
+# Resource Overlays
 PRODUCT_PACKAGES += \
     FrameworksResFogos \
     SettingsOverlayXT2363-1 \
