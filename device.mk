@@ -17,6 +17,10 @@
 # Inherit from motorola sm6375-common
 $(call inherit-product, device/motorola/sm6375-common/common.mk)
 
+PRODUCT_PACKAGES += \
+    FrameworksResFogos \
+    SettingsResFogos \
+    SystemUIResFogos
 
 # Camera
 PRODUCT_PACKAGES += \
