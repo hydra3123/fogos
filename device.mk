@@ -19,6 +19,10 @@ $(call inherit-product, device/motorola/sm6375-common/common.mk)
 
 PRODUCT_PACKAGES += \
     FrameworksResFogos \
+    SettingsOverlayXT2363-1 \
+    SettingsOverlayXT2363-2 \
+    SettingsOverlayXT2363-3 \
+    SettingsOverlayXT2363-5 \
     SettingsResFogos \
     SystemUIResFogos
 
