@@ -53,6 +53,9 @@ PRODUCT_PACKAGES += \
     com.android.nfc_extras \
     Tag
 
+# Virtual A/B
+TARGET_IS_VAB := true
+
 # Init
 $(foreach f,$(wildcard $(LOCAL_PATH)/rootdir/etc/init/hw/*.rc),\
         $(eval PRODUCT_COPY_FILES += $(f):$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/$(notdir $f)))
