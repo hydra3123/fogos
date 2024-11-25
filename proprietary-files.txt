@@ -293,6 +293,10 @@ vendor/firmware/sec_s3nrn4v_firmware.bin
 # OEM
 vendor/etc/vhw.xml
 
+# Sensors
+vendor/lib64/sensors.moto.so
+vendor/lib64/sensors.ssc.so
+
 # Sensor - configs
 vendor/etc/sensors/config/icm4x6xa.json
 vendor/etc/sensors/config/mot_camgest.json
