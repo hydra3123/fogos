@@ -22,9 +22,6 @@ include device/motorola/sm6375-common/BoardConfigCommon.mk
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := fogos
 
-# Display
-TARGET_SCREEN_DENSITY := 280
-
 # Kernel
 BOARD_KERNEL_CMDLINE += androidboot.hab.product=fogos
 TARGET_KERNEL_CONFIG := vendor/fogos-qgki-inline_defconfig
