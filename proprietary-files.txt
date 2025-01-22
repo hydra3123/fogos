@@ -1,4 +1,4 @@
-# Unpinned blobs from fogos_g-user 11 U1UGS34.23-82-2-2 f80660 release-keys
+# Unpinned blobs from fogos_g-user 11 U1UGS34.23-110-23-2 7dcf6d release-keys
 
 # ACDB
 vendor/etc/acdbdata/Bluetooth_cal.acdb
