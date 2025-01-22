@@ -45,6 +45,7 @@ TARGET_PRODUCT_PROP += $(DEVICE_PATH)/properties/product.prop
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 90
 
 # Security Patch
+BOOT_SECURITY_PATCH := 2024-11-01
 VENDOR_SECURITY_PATCH := 2024-11-01
 
 # inherit from the proprietary version
