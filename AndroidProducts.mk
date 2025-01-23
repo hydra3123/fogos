@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_fogos.mk
+    $(LOCAL_DIR)/yaap_fogos.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_fogos-user \
-    lineage_fogos-userdebug \
-    lineage_fogos-eng
+    yaap_fogos-user \
+    yaap_fogos-userdebug \
+    yaap_fogos-eng
